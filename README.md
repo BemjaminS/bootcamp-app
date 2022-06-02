@@ -13,18 +13,26 @@ This sample application demonstrates the following technologies.
 
 **Requirements:**
 
-* [Node.js](https://nodejs.org/) 14.x
-* [PostgreSQL](https://www.postgresql.org/) (can be installed locally using Docker)
+* [Node.js](https://nodejs.org/) 14.x.x
+* [PostgreSQL](https://www.postgresql.org/)
 * [Free Okta developer account](https://developer.okta.com/) for account registration, login
 
 ## Install and Configuration
 
-1. Clone or download source files
-1. Run `npm install` to install dependencies
-1. If you don't already have PostgreSQL, set up using Docker
-1. Create a [free Okta developer account](https://developer.okta.com/) and add a web application for this app
-1. Copy `.env.sample` to `.env` and change the `OKTA_*` values to your application
-1. Initialize the PostgreSQL database by running `npm run initdb`
-1. Run `npm run dev` to start Node.js
+* Clone or download source files
+*  2 ubuntu servers:
+   1. Configure the database server (postgreSQL , set up using Docker)
+   2. Configure the web server (npm install)
+* Create a [free Okta developer account](https://developer.okta.com/) and add a web application for this app
+* Copy `.env.sample` to `.env` and change the `OKTA_*` values to your application
+* Initialize the PostgreSQL database by running `npm run initdb`
+* Run `npm run dev` to start Node.js
+* Application keep running even after restart (using PM2)
+
+## example:
+
+![tenor.gif](https://postimg.cc/GTTt4Phg)
+
+
 
 The associated blog post goes into more detail on how to set up PostgreSQL with Docker and how to configure your Okta account.
