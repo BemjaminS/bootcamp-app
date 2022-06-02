@@ -31,7 +31,7 @@ This sample application demonstrates the following technologies.
 
 ## example:
 
-![tenor.gif](https://postimg.cc/GTTt4Phg)
+[![tenor.gif](https://i.postimg.cc/QC0Tn0LD/tenor.gif)](https://postimg.cc/GTTt4Phg)
 
 
 
